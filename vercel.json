@@ -5,7 +5,7 @@
             "framework": "create-react-app"
         },
         "backend": {
-            "root": "backend"
+            "root": "api"
         }
     },
     "rewrites": [
@@ -13,7 +13,7 @@
             "source": "/api(/.*)?",
             "destination": {
                 "type": "service",
-                "service": "backend"
+                "service": "api"
             }
         },
         {
